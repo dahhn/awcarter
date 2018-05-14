@@ -4,6 +4,10 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
+#logo {
+  z-index: -1;
+  opacity: 10%;
+}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
