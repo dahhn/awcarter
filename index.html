@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript", src="maps.js"></script>
+<script type="text/javascript", src="script.js"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -22,7 +24,7 @@
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> OUR WORK</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
+      <!--<i class="fa fa-search"></i>-->
     </a>
   </div>
 
@@ -38,31 +40,33 @@
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
+    <img id="logo" src="pics/logo.svg">
+    <!--
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">A.W. Carter<span class="w3-hide-small"></span></span>
+    -->
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>I love photography</em></p>
-  <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-    qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h3 class="w3-center">About Us</h3>
+  <!--<p class="w3-center"><em>I love photography</em></p>-->
+  <p>At A. W. Carter, craftsmanship and quality underpin every aspect of our business. From fine furniture for elegant settings, to modern, minimalist cabinetry, we are committed to beautiful design and durable construction. If you want the highest quality available in your new kitchen, or are looking to replicate an antique armoire, we can do it all. With over 100 years of combined experience in the design and construction of exceptional furniture and cabinetry, you can count on us. If it’s not perfect, it’s not right. </p>
+<!--
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
+      <p><b><i class="fa fa-user w3-margin-right"></i>Aaron Carter</b></p><br>
       <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
-    <!-- Hide this text on small devices -->
+
     <div class="w3-col m6 w3-hide-small w3-padding-large">
       <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
-
+-->
   <!--
   <p class="w3-large w3-center w3-padding-16">I'm really good at:</p>
   <p class="w3-wide"><i class="fa fa-camera"></i>Fine Furniture</p>
@@ -84,37 +88,33 @@
 
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <!--
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Partners
+
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge">760+</span><br>
+    Furniture Pieces
   </div>
--->
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">55+</span><br>
-    Projects Done
+
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge">4200+</span><br>
+    Cabinets
   </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">89+</span><br>
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge"> 84+ </span><br>
     Happy Clients
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">150+</span><br>
-    Meetings
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">OUR WORK</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center"><em>Here is some of our latest work.<br> Click on the images to make them bigger</em></p><br>
+  <!--<h3 class="w3-center">OUR WORK</h3>-->
+  <!--<p class="w3-center"><em>Here is some of our latest work.</em></p>-->
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
@@ -173,8 +173,8 @@
 
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center">WHERE I WORK</h3>
-  <p class="w3-center"><em>We'd love your feedback!</em></p>
+  <h3 class="w3-center">WHERE WE WORK</h3>
+  <p class="w3-center"><em>We'd love to hear from you</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
@@ -184,10 +184,10 @@
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mt. Pleasant<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: dan@awcarter.org<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 435.469.0426<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kelby@awcarter.org<br>
       </div>
-      <p>Swing by to see our showroom or leave us a note:</p>
+      <p>Swing by to see our showroom or send us a note:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
@@ -218,13 +218,17 @@
 
 <!-- Add Google Maps -->
 <script>
-function myMap()
+/*function myMap()
 {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  myCenter=new google.maps.LatLng(39.5275608, -111.4707277);
   var mapOptions= {
     center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
+    zoomControl:false,
+    scaleControl:false,
+    zoom:16,
+    scrollwheel: true,
+    draggable: true,
+    mapTypeId:'satellite'
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
@@ -262,12 +266,9 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+*/
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8NdU8Me9Jah_V9J9XR7b3WWIowYtuzkk&callback=myMap"></script>
 
 </body>
 </html>
