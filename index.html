@@ -188,7 +188,7 @@
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kelby@awcarter.org<br>
       </div>
       <p>Swing by to see our showroom or send us a note:</p>
-      <form action="/action_page.php" target="_blank">
+      <form name="contact" action="/action_page.php" target="_blank" netlify>
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -201,6 +201,7 @@
         <button class="w3-button w3-black w3-right w3-section" type="submit">
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
+        <div data-netlify-recaptcha></div>
       </form>
     </div>
   </div>
