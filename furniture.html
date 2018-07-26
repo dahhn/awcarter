@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A. W. Carter</title>
+  <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript", src="maps.js"></script>
+<script type="text/javascript", src="script.js"></script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="cabinets.html" class="w3-bar-item w3-button w3-hide-small"><i ></i> CABINETS</a>
+    <a href="furniture.html" class="w3-bar-item w3-button w3-hide-small"><i ></i> FURNITURE</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small"><i ></i> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i ></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <!--<i class="fa fa-search"></i>-->
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>-->
+    <a href="cabinets.html" class="w3-bar-item w3-button">CABINETS</a>
+    <a href="furniture.html" class="w3-bar-item w3-button">FURNITURE</a>
+    <a href="about.html" class="w3-bar-item w3-button" >ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a>-->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img id="logo" src="pics/logo.svg" height="80%" width="80%">
+    <!--
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">A.W. Carter<span class="w3-hide-small"></span></span>
+    -->
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">About Us</h3>
+  <!--<p class="w3-center"><em>I love photography</em></p>-->
+  <p>At A. W. Carter, craftsmanship and quality underpin every aspect of our business. From fine furniture for elegant settings, to modern, minimalist cabinetry, we are committed to beautiful design and durable construction. If you want the highest quality available in your new kitchen, or are looking to replicate an antique armoire, we can do it all. With over 100 years of combined experience in the design and construction of exceptional furniture and cabinetry, you can count on us. If it’s not perfect, it’s not right. </p>
+<!--
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Aaron Carter</b></p><br>
+      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+-->
+  <!--
+  <p class="w3-large w3-center w3-padding-16">I'm really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Fine Furniture</p>
+
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Custom Cabinetry</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+  -->
+</div>
+
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge">760+</span><br>
+    Furniture Pieces
+  </div>
+
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge">4200+</span><br>
+    Cabinets
+  </div>
+  <div class="w3-col s4 w3-section">
+    <span class="w3-xlarge"> 84+ </span><br>
+    Happy Clients
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">OUR WORK</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <!--<h3 class="w3-center">OUR WORK</h3>-->
+  <!--<p class="w3-center"><em>Here is some of our latest work.</em></p>-->
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="pics/paris-1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Paris France LDS Temple, Brides Room">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/bean-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bean Museam, Provo Utah">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/Gee Kitchen 2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Kitchen with Island">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/table-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Table">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="pics/shelaines-entry-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Island with Corbel">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/Long Kitchen.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minimalist Kitchen with Custom Finish">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/gold-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desk with Veneer, Decorative Carving, and Gold Leafing">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pics/paris-detail4-resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Floral Carving on Table">
+    </div>
+    <!--
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  -->
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<!--
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+Container (Contact Section)
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE WE WORK</h3>
+  <p class="w3-center"><em>We'd love to hear from you</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Mt. Pleasant<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 435.469.0426<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kelby@awcarter.org<br>
+      </div>
+      <p>Swing by to see our office for a consultation, or send us a note:</p>
+      <form name="contact" action="/action_page.php" target="_blank" netlify>
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+        <div data-netlify-recaptcha></div>
+      </form>
+    </div>
+  </div>
+</div>
+-->
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <!--
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    -->
+  </div>
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8NdU8Me9Jah_V9J9XR7b3WWIowYtuzkk&callback=myMap"></script>
+
+</body>
+</html>
+
+</html>
