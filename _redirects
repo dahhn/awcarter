@@ -1,4 +1,4 @@
 # Redirect default Netlify subdomain to primary domain
 http://vigilant-dubinsky-ea937a.netlify.com /* http://www.awcarter.org/:splat 301!
-/contact.html  /* http://www.awcarter.org/:splat 301!
-/fine-furniture.html /* http://www.awcarter.org/:splat 301!
+/contact  /
+fine-furniture /
