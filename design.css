@@ -10,23 +10,7 @@ body, html {
   width:100%;
 }
 
-.flexit {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.flexit  li{
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.flexit li img{
-  width: 100%;
-  height: auto;
 }
 
 /* Create a Parallax Effect */
