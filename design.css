@@ -103,6 +103,5 @@ img{
     width: 100%;
 }
 .helper{
-  vertical-align: middle;
-  text-align: center;
+  padding-top: 50%
 }
