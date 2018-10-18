@@ -105,5 +105,5 @@ img{
 .helper{
   display: inline-block;
   height: 100%;
-  horizontal-align: middle;
+  vertical-align: middle;
 }
