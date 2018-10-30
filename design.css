@@ -110,7 +110,7 @@ img{
   transform: rotate(90deg);
 }
 #scale1{
-  transform: scaleX(.8);
+  transform: scaleY(.8);
 }
 .helper{
   align:middle;
