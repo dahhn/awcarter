@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript", src="maps.js"></script>
 <script type="text/javascript", src="script.js"></script>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -41,15 +44,17 @@
 </div>
 
 <!-- First Parallax Image with Logo Text -->
+<!--
 <div class="bgimg-4 w3-display-container w3-opacity-min" id="home">
   <div id="test" class="w3-display-middle" style="white-space:nowrap;">
+
     <img id="logo" src="pics/logo.svg" >
-    <!--
+
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">A.W. Carter<span class="w3-hide-small"></span></span>
-    -->
+
   </div>
 </div>
-
+-->
 
 
 <!-- Second Parallax Image with Portfolio Text -->
@@ -64,45 +69,369 @@
   <!--<h3 class="w3-center">OUR WORK</h3>-->
   <!--<p class="w3-center"><em>Here is some of our latest work.</em></p>-->
 
+  <div class="row">
+    <div class="column">
+      <a data-fancybox="gallery" href="pics/bean_1.jpg"> <img src="pics/bean_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/bean_2.jpg"><img src="pics/bean_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/bean_3.jpg"><img src="pics/bean_3.jpg"></a>
+      <a data-fancybox="gallery" href="pics/bean_4.jpg"><img src="pics/bean_4.jpg"></a>
+      <a data-fancybox="gallery" href="pics/beehive.jpg"><img src="pics/beehive.jpg"></a>
+      <a data-fancybox="gallery" href="pics/desk_1.jpg"><img src="pics/desk_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/display_1.jpg"><img src="pics/display_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/wright_4.jpg"><img src="pics/wright_4.jpg"></a>
+      <a data-fancybox="gallery" href="pics/veneer_1.jpg"><img src="pics/veneer_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_6.jpg"><img src="pics/paris_6.jpg"></a>
+    </div>
+    <div class="column">
+      <a data-fancybox="gallery" href="pics/gee_2.jpg"><img src="pics/gee_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gee_3.jpg"><img src="pics/gee_3.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_1.jpg"><img src="pics/gold_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_2.jpg"><img src="pics/gold_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_4.jpg"><img src="pics/gold_4.jpg"></a>
+      <a data-fancybox="gallery" href="pics/soper.jpg"><img src="pics/soper.jpg"></a>
+      <a data-fancybox="gallery" href="pics/table_1.jpg"><img src="pics/table_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/table_2.jpg"><img src="pics/table_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/wright_3.jpg"><img src="pics/wright_3.jpg"></a>
+      <a data-fancybox="gallery" href="pics/wright_1.jpg"><img src="pics/wright_1.jpg"></a>
+    </div>
+    <div class="column">
+      <a data-fancybox="gallery" href="pics/gold_5.jpg"><img src="pics/gold_5.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_6.jpg"><img src="pics/gold_6.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_7.jpg"><img src="pics/gold_7.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gold_8.jpg"><img src="pics/gold_8.jpg"></a>
+      <a data-fancybox="gallery" href="pics/gunnison_1.jpg"><img src="pics/gunnison_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/hutch_1.jpg"><img src="pics/hutch_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/shelaines_4.jpg"><img src="pics/shelaines_4.jpg"></a>
+      <a data-fancybox="gallery" href="pics/wright_2.jpg"><img src="pics/wright_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/wright_5.jpg"><img src="pics/wright_5.jpg"></a>
+    </div>
+    <div class="column">
+      <a data-fancybox="gallery" href="pics/long_1.jpg"><img src="pics/long_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/long_2.jpg"><img src="pics/long_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_1.jpg"><img src="pics/paris_1.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_2.jpg"><img src="pics/paris_2.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_3.jpg"><img src="pics/paris_3.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_4.jpg"><img src="pics/paris_4.jpg"></a>
+      <a data-fancybox="gallery" href="pics/paris_5.jpg"><img src="pics/paris_5.jpg"></a>
 
 
-
+    </div>
+  </div>
+<!--
   <div class="responsive">
-    <div class="gallery">
+    <div class="gallery square">
       <a>
-        <img src="/pics/bean-1.jpg" alt="Cinque Terre" width="1600" height="1400">
+        <img src="/pics/bean-1.JPG" alt="Bean Museam Hutch Cabinets">
       </a>
-      <div class="desc">Add a description of the image here</div>
     </div>
   </div>
 
 
   <div class="responsive">
-    <div class="gallery">
+    <div class="gallery square">
       <a>
         <img src="/pics/bean-2.jpg" alt="Forest">
       </a>
-      <div class="desc">Add a description of the image here</div>
+
     </div>
   </div>
 
   <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_lights.jpg">
-        <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    <div class="gallery square rotate" >
+      <a>
+        <img src="/pics/bean-3.jpg" alt="Northern Lights">
       </a>
-      <div class="desc">Add a description of the image here</div>
     </div>
   </div>
 
   <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_mountains.jpg">
-        <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/bean-4.jpg" alt="Mountains" width="600" height="400">
       </a>
-      <div class="desc">Add a description of the image here</div>
+
     </div>
   </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/beehive.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/desk-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/display-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Gee Hutch 1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Gee Kitchen 2.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Gee Kitchen Island 2.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-2.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-3.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-5.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-6.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-8.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/gold-9.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Gunnison Kitchen.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/hutch-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Long Kitchen spice racks.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Long Kitchen.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/paris-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Paris-Celestial-Room2-resized.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/paris-detail2-resized.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/paris-detail4-resized.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/paris-detail6-resized.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/paris-sealers-table.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/shelaines-entry-4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Soper.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/table-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/table-2.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/table-3.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/veneer-1.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Wright baking center.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Wright front island.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Wright Hood closeup.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Wright island side.jpg" alt="Mountains" width="600" height="400">
+      </a>
+
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery square">
+      <a  href="img_mountains.jpg">
+        <img src="/pics/Wright looking down base cabinets" alt="Mountains" width="600" height="400">
+      </a>
+    </div>
+  </div>
+
 
   <div class="clearfix"></div>
 
@@ -111,50 +440,53 @@
     <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
   </div>
 
-
+-->
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <!--
   <div class="w3-row-padding w3-center">
     <div class="w3-col m3 responsive">
-      <img src="pics/paris-1.jpg" style="width:100%; height:200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Paris France LDS Temple, Brides Room">
+      <img src="/pics/pics/paris-1.jpg" style="width:100%; height:200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Paris France LDS Temple, Brides Room">
     </div>
 
     <div class="w3-col m3 responsive">
-      <img src="pics/bean-4.jpg" style="width:100%; height:200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Bean Museam, Provo Utah">
+      <img src="/pics/pics/bean-4.jpg" style="width:100%; height:200px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Bean Museam, Provo Utah">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/Gee Kitchen 2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Kitchen with Island">
+      <img src="/pics/pics/Gee Kitchen 2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Kitchen with Island">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/table-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Table">
+      <img src="/pics/pics/table-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Custom Table">
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
     <div class="w3-col m3">
-      <img src="pics/shelaines-entry-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Island with Corbel">
+      <img src="/pics/pics/shelaines-entry-4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Island with Corbel">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/Long Kitchen.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minimalist Kitchen with Custom Finish">
+      <img src="/pics/pics/Long Kitchen.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minimalist Kitchen with Custom Finish">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/gold-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desk with Veneer, Decorative Carving, and Gold Leafing">
+      <img src="/pics/pics/gold-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Desk with Veneer, Decorative Carving, and Gold Leafing">
     </div>
 
     <div class="w3-col m3">
-      <img src="pics/paris-detail4-resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Floral Carving on Table">
+      <img src="/pics/pics/paris-detail4-resized.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Floral Carving on Table">
     </div>
-    <!--
     <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-  -->
+
   </div>
 </div>
-
+-->
 <!-- Modal for full size images on click-->
+
+
+<!--
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -162,6 +494,9 @@
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+-->
+
+
 
 <!-- Third Parallax Image with Portfolio Text -->
 <!--
@@ -187,7 +522,7 @@ Container (Contact Section)
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: kelby@awcarter.org<br>
       </div>
       <p>Swing by to see our office for a consultation, or send us a note:</p>
-      <form name="contact" action="/action_page.php" target="_blank" netlify>
+      <form name="contact" action="/action_page.php"  netlify>
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
           <div class="w3-half">
             <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
@@ -207,17 +542,17 @@ Container (Contact Section)
 </div>
 -->
 <!-- Footer -->
+<!--
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <!--
+
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    -->
-  </div>
-  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
-</footer>
 
+  </div>
+</footer>
+-->
 <!-- Add Google Maps -->
 <script>
 
