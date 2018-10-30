@@ -108,7 +108,7 @@ img{
 }
 .rotate{
   transform: rotate(90deg);
-  height:200px;
+  height:150px;
 }
 .helper{
   align:middle;
