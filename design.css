@@ -106,12 +106,7 @@ img{
     height: auto;
     width: auto;
 }
-.rotate{
-  transform: rotate(90deg);
-}
-#scale1{
-  transform: scaleX(.8);
-}
+
 .helper{
   align:middle;
 }
