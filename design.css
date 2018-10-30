@@ -107,8 +107,9 @@ img{
     width: auto;
 }
 .rotate{
-  transform: rotate(90deg);
+
   transform: scaleX(.8);
+  transform: rotate(90deg);
 }
 .helper{
   align:middle;
